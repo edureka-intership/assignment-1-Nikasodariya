@@ -1,0 +1,116 @@
+* {
+    margin: 0%;
+    padding-left: 0;
+  }
+  body{
+    color: rgb(43, 43, 110);
+  }
+
+  header{
+    background-color: #e60707;;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+  
+
+  .logo{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150%;
+    font-size: 32px;
+    color: #eb2929;
+    font-weight: 900;
+  }
+
+  .nav{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+  }
+
+  .btn{
+    margin: 0 0 0 10px;
+    padding: 10px;
+    background-color: #e60707;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  h2{
+    margin: 10px 0 10px  127px;
+  }
+  .container2 {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+  }
+   .filter {
+    font-weight: 900;
+    font-size: 20px;
+  }
+  aside{border-radius: 2px;
+    box-shadow:2px 1.5px 2px 3px rgba(46, 46, 53, 0.2); 
+    padding: 20px 30px 30px;
+    width: 25vw;
+    height: calc(100-header-h2);
+    }
+    
+ 
+    
+    .location select{
+   padding: 5px 10px;
+   border-radius: 3px;
+   margin: 10px 0;
+  } 
+
+
+  .box2{
+    width: 70vw;
+     }
+
+  .box2 .card .maxbox img{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0 0 30px;
+  }
+
+  .card{
+    width: 50vw;
+   height: 190px;
+    box-shadow: 2px 1.5px 2px 3px rgb(46 46 53 / 20%);
+    border-radius: 2px;
+    margin: 0px 0px 30px 20px;
+    }
+  
+  .maxbox{
+    margin: 0 0 5px 0;
+    width:50vw;
+    display: flex;
+  }
+  .cardtext{
+    margin: 15px;
+    padding: 10px 0;
+    line-height: 1.5;
+    }
+  .minibox{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin: 5px 0 0 50px;
+    line-height: 1.5;
+    }
